@@ -3,7 +3,9 @@ import React from "react";
 //Jumbotron
 const Jumbotron = () => {
 	return (
-		<div className="container-fluid py-5">
+		<div
+			className="container-fluid py-5"
+			style={{ backgroundColor: "#e5e5e5" }}>
 			<h1 className="display-5 fw-bold">Custom jumbotron</h1>
 			<p className="col-md-8 fs-4">
 				Using a series of utilities, you can create this jumbotron, just
