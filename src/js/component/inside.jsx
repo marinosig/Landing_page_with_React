@@ -1,8 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import Jumbotron from "./jumbotron.jpx";
-import Card from "./card.jpx";
+import Card from "./card.jsx";
 
 //create your first component
 const Inside = () => {
@@ -10,8 +9,9 @@ const Inside = () => {
 		<div
 			className="container-fluid py-5"
 			style={{ backgroundColor: "#e5e5e5" }}>
-				
-			</div>
+			<p> TESTE </p>
+			<Card />
+		</div>
 	);
 };
 
