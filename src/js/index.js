@@ -8,8 +8,8 @@ import "../styles/index.css";
 //import your own components
 
 import Navbar from "./component/navbar.jsx";
-import Jumbotron from "./component/jumbotron.jsx";
-import Card from "./component/card.jsx";
+// import Jumbotron from "./component/jumbotron.jsx";
+// import Card from "./component/card.jsx";
 import Footer from "./component/footer.jsx";
 import Inside from "./component/inside.jsx";
 
@@ -18,8 +18,6 @@ import Inside from "./component/inside.jsx";
 ReactDOM.render(
 	<>
 		<Navbar />
-		<Jumbotron />
-		<Card />
 		<Inside />
 		<Footer />
 	</>,
